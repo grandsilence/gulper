@@ -1,5 +1,9 @@
 {
     "presets": [
-        "es2015"
+        ["@babel/preset-env", {
+            "targets": {
+                "browsers": ["last 3 versions", "> 3% in RU", "Firefox > 20", "ie > 10", "safari >= 7"]
+            }
+        }]
     ]
 }

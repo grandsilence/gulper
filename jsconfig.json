@@ -5,7 +5,10 @@
         "module": "commonjs",
         "baseUrl": "./",
         "paths": {
-            "*": ["./app/*", "./node_modules/*"]
+            "*": [
+                "./resources/assets/scripts/*",
+                "./node_modules/*"
+            ]
         }
     },
     "exclude": [
